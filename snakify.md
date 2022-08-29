@@ -16,6 +16,8 @@ Write a program that greets the person by printing the word "Hi" and the name of
 
 Write a program that takes a number and print its square.
 
+![Snakify solution 1.3](snakify1.3.png)
+
 4. Area of a right-angled triangle
 
 Write a program that reads the length of the base and the height of a right-angled triangle and prints the area. Every number is given on a separate line.
