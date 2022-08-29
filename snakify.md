@@ -1,14 +1,16 @@
 Chapter 1
 
-1. Sum of three numbers: 
+1. Sum of three numbers
 
 Write a program that takes three numbers and prints their sum. Every number is given on a separate line.
 
-![Snakify solution](snakify1.1.png)
+![Snakify solution 1.1](snakify1.1.png)
 
-2. Hi John:
+2. Hi John
 
 Write a program that greets the person by printing the word "Hi" and the name of the person. See the examples below.
+
+![Snakify solution 1.2](snakify1.2.png)
 
 3. Square
 
