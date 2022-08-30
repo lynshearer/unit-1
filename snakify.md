@@ -34,11 +34,13 @@ Write a program that greets the user by printing the word "Hello", a comma, the 
 
 N students take K apples and distribute them among each other evenly. The remaining (the undivisible) part remains in the basket. How many apples will each single student get? How many apples will remain in the basket? The program reads the numbers N and K. It should print the two answers for the questions above.
 
-
+![Snakify solution 1.6](snakify1.6.png)
 
 7. Previous and Next
 
 Write a program that reads an integer number and prints its previous and next numbers. See the examples below for the exact format your answers should take. There shouldn't be a space before the period. Remember that you can convert the numbers to strings using the function str.
+
+![](snakify1.7.png)
 
 8. Two timestamps 
 
