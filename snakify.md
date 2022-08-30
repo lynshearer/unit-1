@@ -22,13 +22,19 @@ Write a program that takes a number and print its square.
 
 Write a program that reads the length of the base and the height of a right-angled triangle and prints the area. Every number is given on a separate line.
 
+![Snakify solution 1.4](snakify1.4.png)
+
 5. Hello, Harry!
 
 Write a program that greets the user by printing the word "Hello", a comma, the name of the user and an exclamation mark after it. See the examples below.
 
+![Snakify solution 1.5](snakify1.5.png)
+
 6. Apple Sharing
 
 N students take K apples and distribute them among each other evenly. The remaining (the undivisible) part remains in the basket. How many apples will each single student get? How many apples will remain in the basket? The program reads the numbers N and K. It should print the two answers for the questions above.
+
+
 
 7. Previous and Next
 
