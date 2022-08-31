@@ -4,7 +4,7 @@ Chapter 1
 
 Write a program that takes three numbers and prints their sum. Every number is given on a separate line.
 
-![Snakify solution 1.1](snakify1.1.png)
+![](snakify1.1.png)
 
 2. Hi John
 
