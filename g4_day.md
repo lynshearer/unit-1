@@ -3,6 +3,6 @@ According to a 2016 brain capacity study performed by the Salk Institute (founde
 Works Cited:
 
 “Memory Capacity of Brain Is 10 Times More than Previously Thought - Salk Institute for Biological Studies.” Salk Institute for Biological Studies, 3 Oct. 
-  2018, www.salk.edu/news-release/memory-capacity-of-brain-is-10-times-more-than-previously-thought/. Accessed 2 Sept. 2022.
+           2018, www.salk.edu/news-release/memory-capacity-of-brain-is-10-times-more-than-previously-thought/. Accessed 2 Sept. 2022.
 
 ‌
