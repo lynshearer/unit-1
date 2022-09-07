@@ -46,8 +46,12 @@ Write a program that reads an integer number and prints its previous and next nu
 
 A timestamp is three numbers: a number of hours, minutes and seconds. Given two timestamps, calculate how many seconds is between them. The moment of the first timestamp occurred before the moment of the second timestamp.
 
+![](snakify1.8.png)
+
 9. School desks
 
 A school decided to replace the desks in three classrooms. Each desk sits two students. Given the number of students in each class, print the smallest possible number of desks that can be purchased. The program should read three integers: the number of students in each of the three classes, a, b and c respectively. In the first test there are three groups. The first group has 20 students and thus needs 10 desks. The second group has 21 students, so they can get by with no fewer than 11 desks. 11 desks is also enough for the third group of 22 students. So we need 32 desks in total.
+
+![](snakify1.9.png)
 
 
