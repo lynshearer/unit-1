@@ -1,4 +1,5 @@
-Task #1
+# Task #1: Programming Task (Computational Thinking)
+
 ![](task1.1.png)
 
 Task #2
