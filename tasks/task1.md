@@ -23,3 +23,10 @@ Task #3
 
 Task#4
 ![](task1.4.png)
+
+Bibliography:
+
+“Frontier.” Ornl.gov, 2022, www.olcf.ornl.gov/frontier/#4. Accessed 23 Sept. 2022.
+
+
+“Supercomputer Fugaku.” Supercomputer Fugaku, 2020, www.fujitsu.com/global/about/innovation/fugaku/. Accessed 23 Sept. 2022.
