@@ -1,6 +1,12 @@
 # Crypto Wallet
 
-Design statement: I will to design and make a digital ledger for a client who is a local trader. The digital ledger will provide cryptocurrency tracking, which includes tracking of transactions and statistics regarding the selected cryptocurrency, IOTA, and is constructed using the software PyCharm. It will take two weeks to make and will be evaluated according to the three criterias. One, the electronic ledger is a text-based software that runs in the PyCharm terminal, two, the electronic ledger display the basic description of the cyrptocurrency selected, and three, the electronic ledger allows to enter, withdraw and record transactions. 
+Design statement: I will to design and make a digital ledger for a client who is a local trader. The digital ledger will provide cryptocurrency tracking, which includes tracking of transactions and statistics regarding the selected cryptocurrency, IOTA, and is constructed using the software PyCharm. It will take two weeks to make and will be evaluated according to these six criterias. 
+1. The electronic ledger is a text-based software that runs in the PyCharm terminal
+2. The electronic ledger display the basic description of the cyrptocurrency selected
+3. The electronic ledger allows to enter, withdraw and record transactions. 
+4. The electronic ledger is password protected so that only the client can access it. 
+5. The electronic ledger organizes 
+6. The electronic ledger
 
 IOTA is a cryptocurrency that strives to eradicate the limitations that blockchains have on the world of crypto. Blockchains are a way that data about crypto transactions can be stored, but has a multitude of downfalls, like it's lack of privacy and potential costliness. In order to combat this issue, IOTA operates on a network called the Internet of Things which claims to allow for feeless and safe transactions. 
 
