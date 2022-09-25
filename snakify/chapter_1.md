@@ -1,4 +1,4 @@
-Chapter 1 (Input, print and numbers)
+# Chapter 1 (Input, print and numbers)
 
 01: Sum of three numbers
 
