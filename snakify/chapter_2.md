@@ -1,4 +1,4 @@
-Chapter 2 (Integer and float numbers)
+# Chapter 2 (Integer and float numbers)
 
 01: Last digit of integer
 
