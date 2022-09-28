@@ -1,10 +1,11 @@
 # Unit 1 Project: Crypto Wallet
 
-
-
 ![](22ROOSE-master768.gif)  
 <sub>Illustration for Glenn Harvey</sub>
 
+# Criteria A: Planning
+
+## Problem Definition
 
 Design statement: I will to design and make a digital ledger for a client who is a local trader. The digital ledger will provide cryptocurrency tracking, which includes tracking of transactions and statistics regarding the selected cryptocurrency, IOTA, and is constructed using the software PyCharm. It will take two weeks to make and will be evaluated according to these six criterias. 
 
