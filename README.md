@@ -1,50 +1,28 @@
 # Unit 1 Project: Crypto Wallet
 
-# Crypto Wallet
+
 
 ![](22ROOSE-master768.gif)  
 <sub>Illustration for Glenn Harvey</sub>
 
-# Criteria A: Planning
 
-## Problem definition
+Design statement: I will to design and make a digital ledger for a client who is a local trader. The digital ledger will provide cryptocurrency tracking, which includes tracking of transactions and statistics regarding the selected cryptocurrency, IOTA, and is constructed using the software PyCharm. It will take two weeks to make and will be evaluated according to these six criterias. 
 
-Ms. Sato is a local trader who is interested in the emerging market of cryptocurrencies. She has started to buy and sell electronic currencies, however at the moment she is tracking all his transaction using a ledger in a spreadsheet which is starting to become burdensome and too disorganized. It is also difficult for Ms Sato to find past transactions or important statistics about the currency. Ms Sato is in need of a digital ledger that helps her track the amount of the cryptocurrency, the transactions, along with useful statistics. 
+## Success Criterias 
 
-Apart for this requirements, Ms Sato is open to explore a cryptocurrency selected by the developer.
+1. The electronic ledger is a text-based software that runs in the PyCharm terminal
+2. The electronic ledger display the basic description of the cryptocurrency selected
+3. The electronic ledger allows to enter, withdraw and record transactions. 
+4. The electronic ledger is password protected so that only the client can access it. 
+5. The electronic ledger organizes withdrawals and transactions based on their value (positive/negative).
+6. The electronic ledger calculates the net value of the clients investments.
 
-An example of the data stored is 
+IOTA is a cryptocurrency that strives to eradicate the limitations that blockchains have on the world of crypto. Blockchains are a way that data about crypto transactions can be stored, but has a multitude of downfalls, like it's lack of privacy and potential costliness. In order to combat this issue, IOTA operates on a network called the Internet of Things which claims to allow for feeless and safe transactions. 
 
-| Date | Description | Category | Amount  |
-|------|-------------|----------|---------|
-| Sep 23 2022 | bought a house | Expenses | 10 BTC |
-| Sep 24 2022 | food for house celebration | Food | 0.000001 BTC |
+Citation:
 
+Cambridge Dictionary. “Blockchain.” @CambridgeWords, 21 Sept. 2022, dictionary.cambridge.org/ja/dictionary/english/blockchain. Accessed 23 Sept. 2022.
 
-## Proposed Solution
-
-Design statement:
-I will to design and make a ———— for a client who is ———. The ——– will about ———— and is constructed using the software ———. It will take  ———- to make and will be evaluated according to the criteria ———.
-
-
-## Success Criteria
-1. The electronic ledger is a text-based software (Runs in the Terminal).
-2. The electronic ledger display the basic description of the cyrptocurrency selected.
-3. The electronic ledger allows to enter, withdraw and record transactions.
-4.
-5.
-6.
-
-# Criteria B: Design
-
-## System Diagram
-
-## Flow Diagrams
-
-
-## Record of Tasks
-| Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
-|---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
-| 1       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution                        | 10min         | Sep 24                 | B         |
-
-
+Houston, Rickie. “Blockchain 101: Definition, Explanation, Pros & Cons.” Business Insider, Insider, 13 July 2022, www.businessinsider.com/personal-finance/what-is-blockchain. Accessed 23 Sept. 2022.
+‌
+“What Is IOTA.” Iota.org, 2022, www.iota.org/get-started/what-is-iota. Accessed 23 Sept. 2022.
