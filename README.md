@@ -34,5 +34,5 @@ Justify the tools/structure of your solution
 2. The electronic ledger display the basic description of the cryptocurrency selected
 3. The electronic ledger allows to enter, withdraw and record transactions. 
 4. The electronic ledger is password protected so that only the client can access it. 
-5. The electronic ledger organizes withdrawals and transactions based on their value (positive/negative).
-6. The electronic ledger calculates the net value of the clients investments.
+5. The electronic ledger organizes withdrawals and transaction history visually (spreadsheet).
+6. The electronic ledger also organizes withdrawals and transactions with a bar graph.
