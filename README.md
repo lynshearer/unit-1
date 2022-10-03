@@ -36,3 +36,8 @@ Justify the tools/structure of your solution
 4. The electronic ledger is password protected so that only the client can access it. 
 5. The electronic ledger organizes withdrawals and transaction history visually (spreadsheet).
 6. The electronic ledger also organizes withdrawals and transactions with a bar graph.
+
+## Record of Tasks
+| Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
+|---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
+| 1       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution                        | 10min         | Sep 23                 | B         |
