@@ -41,6 +41,6 @@ Justify the tools/structure of your solution
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
 | 1       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution                        | 10 mins         | Sep 23                 | B         |
-| 2       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution                        | 10 mins         | Sep 23                 | B         |
+| 2       | Create registration                                         | Allows user to create personal username and password                        | 20 mins         | Sep 24                 | C         |
 
 
