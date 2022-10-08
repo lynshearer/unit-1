@@ -1,7 +1,7 @@
 # Unit 1 Project: Crypto Wallet
 
-![](flippywallet.gif)  
-<sub>Illustration: Wallet by Dribbble on Pinterest </sub>
+![](iota-cryptocurrency.gif)  
+<sub>Illustration: </sub>
 
 # Criteria A: Planning
 
