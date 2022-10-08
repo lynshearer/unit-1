@@ -50,6 +50,8 @@ Justify the tools/structure of your solution
 Fig. 1: This flow diagram is for showing all past transactions to the user.
 ![](projectflowdiagram2.png)
 Fig. 2: This flow diagram is so the user can input two types of transactions into their digital ledger. This includes both withdrawals and deposits. The withdrawals will automatically be added to the wallet as a negative number in order to indicate the loss of money.
+![](projectflowdiagram3.png)
+Fig. 3: This flow diagram is so the user can see the total money that is currently in the wallet after adding/subtracting all past transactions. This also converts the total MIOTA that Ms. Sato is in possession of to JPY (yen).
 
 ## Test Plan
 
