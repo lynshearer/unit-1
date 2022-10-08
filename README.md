@@ -73,3 +73,9 @@ Fig. 3: This flow diagram is so the user can see the total money that is current
 | 8       | Option #2: Creating transactions                                         | User is able to input both withdrawals and transactions into digital ledger. If there is a mistake, user can use another option to delete past transactions (option #5).                          | 60 mins         | Sep 25                 | C         |
 | 9       | Option #3: View past transactions                                         | Allows user to view all past transactions in a chart.                         | 30 mins         | Sep 25                 | C         |
 | 10       | Option #4: Overall transaction data                                         | Allows user to see total amount of money in wallet and also converts to JPY.                         | 30 mins         | Sep 26                 | C         |
+
+# Criteria C: Development
+
+## 01. Registration
+
+![](projectregistration.png)
