@@ -104,6 +104,6 @@ Fig. 3: This flow diagram is so the user can see the total money that is current
 
 ![](projectpasttransactions.png)
 
-##08: Overall balance and Conversion (Menu Option #4)
+## 08: Overall balance and Conversion (Menu Option #4)
 
 ![](projectoveralltransactions.png)
