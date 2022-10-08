@@ -47,6 +47,7 @@ Justify the tools/structure of your solution
 ## Flow Diagrams
 
 ![](projectflowdiagram.png)
+![](projectflowdiagram2.png)
 
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
