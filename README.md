@@ -99,3 +99,11 @@ Fig. 3: This flow diagram is so the user can see the total money that is current
 ## 06: User transactions (Menu Option #2)
 
 ![](projecttransactions.png)
+
+## 07: Transaction History (Menu Option #3)
+
+![](projectpasttransactions.png)
+
+##08: Overall balance and Conversion (Menu Option #4)
+
+![](projectoveralltransactions.png)
