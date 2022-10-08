@@ -1,6 +1,6 @@
 # Unit 1 Project: Crypto Wallet
 
-![](22ROOSE-master768.gif)  
+![](iota-cryptocurrency.gif)  
 <sub>Illustration for Glenn Harvey</sub>
 
 # Criteria A: Planning
