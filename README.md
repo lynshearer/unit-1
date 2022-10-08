@@ -1,7 +1,7 @@
 # Unit 1 Project: Crypto Wallet
 
 ![](flippywallet.gif)  
-<sub>Illustration for Glenn Harvey</sub>
+<sub>Illustration: Wallet by Dribbble on Pinterest </sub>
 
 # Criteria A: Planning
 
