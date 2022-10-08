@@ -40,7 +40,9 @@ Justify the tools/structure of your solution
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
-| 1       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution                        | 10 mins         | Sep 23                 | B         |
-| 2       | Create registration                                         | Allows user to create personal username and password                        | 20 mins         | Sep 24                 | C         |
+| 1       | Problem definition and client needs                                        | To have a clear understanding of what Ms. Sato requires and define them in order to proceed to meeting her needs.                        | 10 mins         | Sep 23                 | A         |
+| 2       | Design Statement and success criteria                                         | Clear design statement on what will be included in the digital ledger and success criteria outlining solutions to the client's problem.                         | 10 mins         | Sep 23                 | A         |
+| 3       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution.                        | 10 mins         | Sep 23                 | B         |
+| 4       | Create registration                                         | Allows user to create personal username and password.                        | 20 mins         | Sep 24                 | C         |
 
 
