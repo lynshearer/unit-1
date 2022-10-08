@@ -79,3 +79,7 @@ Fig. 3: This flow diagram is so the user can see the total money that is current
 ## 01. Registration
 
 ![](projectregistration.png)
+
+## 02. Login and Welcome Message
+
+![](projectlogin.png)
