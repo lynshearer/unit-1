@@ -105,19 +105,30 @@ This code validates that the user inputs an integer value between 1 and 4, corre
 
 ![](projectbginfo.png)
 
+Provides background information on the selected cryptocurrencty IOTA (abbreviated MIOTA) in order to give client detailed information on what she is investing her money in. This also includes the current conversion rate to JPY for the client's convenience. 
+
 ## 06: User transactions (Menu Option #2)
 
 ![](projecttransactions.png)
+
+The code above allows the user to create two types of transactions, a deposit or a withdrawal. The user can do this by typing '1' or '2' when prompted by the code. '1' corresponds with a deposit and '2' corresponds with a withdrawal. The user will then be prompted to add the date, value, and reason for the deposit/withdrawal. This will help the client organize and remember her past transactions when using Menu Option #3, Transaction history. The clients inputs will then be added to a csv file (wallet.csv) by using the append function, so that the user can view these past rtansactions in the future. When a deposit or withdrawal is properly completed, a message will appear informing the user of a successful transaction, using the print function.
 
 ## 07: Transaction History (Menu Option #3)
 
 ![](projectpasttransactions.png)
 
+The code above allows the client to view all her past transactions. This is done by opening the wallet.csv, which stores all the past transactions that the user has inputed into the digital ledger, and reading and printing these past values, organized by date, amount, and reason for transaction. 
+
 ## 08: Overall balance and Conversion (Menu Option #4)
 
 ![](projectoveralltransactions.png)
+
+The code above allows the client to see their overall balance, an accumulation of all past deposits and withdrawals. This total value is then converted to JPY for the clients convenience, especially if she is considering withdrawing money.
+
 
 ## 09: Restart to menu 
 
 ![](projectrestart.png)
 ![](projectrestart2.png)
+
+The restart function allows the client to be prompted to either choose another menu option or log out of the digital ledger when the previous option is completed. The restart function runs after every option until the client decides she wants to log out of her digital ledger. This allows the client to fluidly interact with the digital ledger without constantly logging back in or restarting the software. The restart function utilized a defined function and if statements in order to deliver a smooth experience to the client. 
