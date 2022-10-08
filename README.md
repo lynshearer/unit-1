@@ -74,23 +74,32 @@ Fig. 3: This flow diagram is so the user can see the total money that is current
 | 9       | Option #3: View past transactions                                         | Allows user to view all past transactions in a chart.                         | 30 mins         | Sep 25                 | C         |
 | 10       | Option #4: Overall transaction data                                         | Allows user to see total amount of money in wallet and also converts to JPY.                         | 30 mins         | Sep 26                 | C         |
 | 11       | Draw flow diagrams and provide an explanation of their purpose                                         | Clear diagram showing aspects of code and description of purpose of the code.                         | 120 mins         | Oct 6                 | C         |
+| 12       | Code descriptions                                         | Clear descriptions on the purpose of each aspect of the code.                         | 180 mins         | Oct 7                 | C         |
 # Criteria C: Development
 
 ## 01. Registration
 
 ![](projectregistration.png)
 
+The registration allows Ms. Sato to create her own username and password to use whenever she is accessing the digital ledger. This allows the digital ledger to be unable to be accessed by any user other than the client. The registration is defined as function "register." Within the function, the append function is utilized so that the username and password of the clients choice can be appended to the chosen csv file, to save the information for future logins. The function can be called when Ms. Sato first accesses the ledger to create her account information. 
+
 ## 02. Login and Welcome Message
 
 ![](projectlogin.png)
+
+The code above depicts the login function. Db.csv is opened and read as it holds the saved user information that the client will have created for herself. A for loop is used in order to verify that the username and password inputed by the user matches the user information that has already been saved through registration. If the information is correct, a welcome message is printed. If the information is incorrect, the code will be exited.
 
 ## 03. Menu
 
 ![](projectmenu.png)
 
+The main menu prints the options that the client has when using the digital ledger. 
+
 ## 04. Validate user input to menu
 
 ![](projectvalidation.png)
+
+This code validates that the user inputs an integer value between 1 and 4, corresponding to the values present on the menu. If the user inputs a value outside of this range, the code will prompt the user to try again. 
 
 ## 05. IOTA Background Information and Conversion Rate (Menu Option #1)
 
