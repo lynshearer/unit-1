@@ -87,3 +87,7 @@ Fig. 3: This flow diagram is so the user can see the total money that is current
 ## 03. Menu
 
 ![](projectmenu.png)
+
+## 04. Validate user input to menu
+
+![](projectvalidation.png)
