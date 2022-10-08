@@ -91,3 +91,7 @@ Fig. 3: This flow diagram is so the user can see the total money that is current
 ## 04. Validate user input to menu
 
 ![](projectvalidation.png)
+
+## 05. IOTA Background Information and Conversion Rate (Menu Option #1)
+
+![](projectbginfo.png)
