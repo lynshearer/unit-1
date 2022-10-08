@@ -95,3 +95,7 @@ Fig. 3: This flow diagram is so the user can see the total money that is current
 ## 05. IOTA Background Information and Conversion Rate (Menu Option #1)
 
 ![](projectbginfo.png)
+
+## 06: User transactions (Menu Option #2)
+
+![](projecttransactions.png)
