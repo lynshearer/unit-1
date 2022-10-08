@@ -37,6 +37,13 @@ Justify the tools/structure of your solution
 5. The electronic ledger shows past transaction history.
 6. The electronic ledger shows the total amount in the clients wallet and converts to JPY.
 
+
+# Criteria B: Design
+
+## System Diagram
+
+![](systemdiagram.jpg)
+
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
