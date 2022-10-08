@@ -17,6 +17,10 @@ Design statement: I will to design and make a digital ledger for a client who is
 
 IOTA is a cryptocurrency that strives to eradicate the limitations that blockchains have on the world of crypto. Blockchains are a way that data about crypto transactions can be stored, but has a multitude of downfalls, like it's lack of privacy and potential costliness. In order to combat this issue, IOTA operates on a network called the Internet of Things which claims to allow for feeless and safe transactions. 
 
+## Rationale for Proposed Solution
+
+As stated in the design statement, the coding language Python through software PyCharm will be utilized in order to create the digital ledger for the client. PyCharm 
+
 Citation:
 
 Cambridge Dictionary. “Blockchain.” @CambridgeWords, 21 Sept. 2022, dictionary.cambridge.org/ja/dictionary/english/blockchain. Accessed 23 Sept. 2022.
