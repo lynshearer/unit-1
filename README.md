@@ -59,10 +59,14 @@ Fig. 3: This flow diagram is so the user can see the total money that is current
 
 ## Test Plan
 
-| Software Test Type | Description | Category | Planned Outcome  |
+| Software Test Type | Input | Process | Planned Output  |
 |------|-------------|----------|---------|
-| Sep 23 2022 | bought a house | Expenses | 10 BTC |
-| Sep 24 2022 | food for house celebration | Food | 0.000001 BTC |
+| Unit Testing | Login function (def login) | 1. Call function. 2. Input correct or incorrect username and/or password. | Access granted if username and password is correct, otherwise, acess denied. |
+| Unit testing | validate_int_input | 1. Import validate_int_input from library. 2. Enter a letter and/or numbers when prompted to pick a value between 1 and 4. | Code will proceed to the correct menu option if an integer value between 1 and 4 is inputed. Error message and another prompt will appear if value is not an integer and/or not between 1 and 4. |
+| Integrational Testing | Register and Login function | 1. Set up a username and password by calling the register function. 2. Call login function 3. Input correct or incorrect username and/or password.| If user input when prompted to login matches with registered username and password, access will be granted. Otherwise, access will be denied and the code will exit. |
+| Unit Testing | Restart function | 1. When the chosen menu option is fulfilled, user will be prompted to choose to continue browsing ledger or exit. 2. User will choose either to continue or to exit. | If user wants to continue, the menu options will be reprinted and the user will be allowed to choose another option or continue to browse the ledger features in general. If not, the user will be logged out. |
+| Unit Testing | Main function | 1. User will have already picked an option and the option will have already been validated. 2. The user responds to prompts based off of the option that they chose. | The corresponding option to what the user chose when prompted will run. |
+| System Testing | Entire code | 1. Registration will commence. 2. After registration the user will input username and password. 3. If correct, user will pick an option. 4. After option is completed, user responds to prompt of wanting to continue or not. | Entire code including all functions, csv files will work according to program. |
 
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
@@ -74,10 +78,10 @@ Fig. 3: This flow diagram is so the user can see the total money that is current
 | 5       | Create login system                                         | A login system than only allows access if the password and username are correct.                        | 30 mins         | Sep 24                 | C         |
 | 6       | Menu                                         | A menu that clearly shows the options the user has when using the digital ledger.                         | 10 mins         | Sep 25                 | C         |
 | 7       | Menu Option #1: Information about IOTA (MIOTA)                                         | Description of cryptocurrency for the user so the user has background information on the type of currency that they are investing in.                          | 10 mins         | Sep 24                 | C         |
-| 8       | Option #2: Creating transactions                                         | User is able to input both withdrawals and transactions into digital ledger. If there is a mistake, user can use another option to delete past transactions (option #5).                          | 60 mins         | Sep 26                 | C         |
-| 9       | Option #3: View past transactions                                         | Allows user to view all past transactions in a chart.                         | 30 mins         | Sep 29                 | C         |
-| 10       | Option #4: Overall transaction data                                         | Allows user to see total amount of money in wallet and also converts to JPY.                         | 30 mins         | Sep 26                 | C         |
-| 11       | Draw flow diagrams and provide an explanation of their purpose                                         | Clear diagram showing aspects of code and description of purpose of the code.                         | 120 mins         | Oct 6                 | C         |
+| 8       | Option #2: Creating transactions                                         | User is able to input both withdrawals and transactions into digital ledger. Withdrawals will automatically be appended to the wallet.csv as a negative number. Deposits will remain positive.                          | 90 mins         | Sep 26                 | C         |
+| 9       | Option #3: View past transactions                                         | Allows user to view all past transactions in an organized manner.                         | 30 mins         | Sep 29                 | C         |
+| 10       | Option #4: Overall transaction data                                         | Allows user to see total amount of money in wallet and also converts to JPY.                         | 45 mins         | Sep 26                 | C         |
+| 11       | Draw flow diagrams and provide an explanation of their purpose                                         | Clear diagram showing aspects of code and description of purpose of the code.                         | 180 mins         | Oct 6                 | C         |
 | 12       | Code descriptions                                         | Clear descriptions on the purpose of each aspect of the code.                         | 180 mins         | Oct 7                 | C         |
 # Criteria C: Development
 
