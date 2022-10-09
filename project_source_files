@@ -3,6 +3,21 @@ colors = ["\033[0;32m", "\33[0;31m", "\33[1;30m", "\33[0;97m", "\33[0;35m", "\33
 end_code = "\033[00m"
 with open("wallet.csv", "r") as file:
     wallet_log = file.readlines()
+    
+# Registration
+def register(uname:str,password:str):
+     '''
+     db.csv
+     :param uname: username a string
+     :param password: password a string
+     :return: nothing
+     '''
+     file = open("db.csv", "a")
+     file.write(f"{uname},{password}\n")
+
+new_user = input("Enter a username: ")
+new_pass = input("Enter a password: ")
+register(password=new_pass, uname=new_user)
 
 ## Login
 def login(user, password)->bool:
