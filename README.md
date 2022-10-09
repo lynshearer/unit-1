@@ -135,7 +135,7 @@ The code above allows the client to view all her past transactions. This is done
 
 ## 08: Overall balance and Conversion (Menu Option #4)
 
-![](projectoveralltransactions.png)
+![](transactiondata.png)
 
 The code above allows the client to see their overall balance, an accumulation of all past deposits and withdrawals. This total value is then converted to JPY for the clients convenience, especially if she is considering withdrawing money.
 
