@@ -93,7 +93,7 @@ Fig. 3: This flow diagram is so the user can see the total money that is current
 
 ## 01. Registration
 
-![](projectregistration.png)
+![](registration.png)
 
 The registration allows Ms. Sato to create her own username and password to use whenever she is accessing the digital ledger. This allows the digital ledger to be unable to be accessed by any user other than the client. The registration is defined as function "register." Within the function, the append function is utilized so that the username and password of the clients choice can be appended to the chosen csv file, to save the information for future logins. The function can be called when Ms. Sato first accesses the ledger to create her account information. 
 
@@ -105,7 +105,7 @@ The code above depicts the login function. Db.csv is opened and read as it holds
 
 ## 03. Menu
 
-![](projectmenu.png)
+![](menu.png)
 
 The main menu prints the options that the client has when using the digital ledger. 
 
