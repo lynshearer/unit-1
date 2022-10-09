@@ -1,27 +1,29 @@
-```python
+```
 colors = ["\033[0;32m", "\33[0;31m", "\33[1;30m", "\33[0;97m", "\33[0;35m", "\33[1;91m"]
 end_code = "\033[00m"
 with open("wallet.csv", "r") as file:
     wallet_log = file.readlines()
-    
-# Registration
-def register(uname:str,password:str):
-     '''
-     db.csv
-     :param uname: username a string
-     :param password: password a string
-     :return: nothing
-     '''
-     file = open("db.csv", "a")
-     file.write(f"{uname},{password}\n")
 
-new_user = input("Enter a username: ")
-new_pass = input("Enter a password: ")
+## Registration
+def register(uname: str, password: str):
+    '''
+    db.csv
+    :param uname: username a string
+    :param password: password a string
+    :return: nothing
+    '''
+    file = open("db.csv", "a")
+    file.write(f"{uname},{password}\n")
+new_user = input("Enter what you would like to be your username: ")
+new_pass = input("Enter what you would like to be your password: ")
 register(password=new_pass, uname=new_user)
+print("Registration completed. Please continue to the digital ledger.")
 
 ## Login
 def login(user, password)->bool:
     '''
+    Function for a simple user login
+    needs db.csv
     :param user: string
     :param password: string
     :return: true or false
@@ -61,7 +63,7 @@ def restart():
 ## Start of the menu
 
 from my_library import validate_int_input
-prompt_msg = "Please enter an option [1-5]: "
+prompt_msg = "Please enter an option [1-4]: "
 print("Menu Options".center(50))
 
 menu = """1. Information regarding IOTA and current conversion rate
@@ -74,19 +76,20 @@ print(menu)
 def Main():
     option = validate_int_input(prompt_msg)
     while option > 4 or option < 1:
-        option = validate_int_input((f"Invalid option. {colors[0]}{prompt_msg}{end_code}")) #validates user input
+        option = validate_int_input((f"Invalid option. {colors[0]}{prompt_msg}{end_code}"))
     #option 1: Information regarding IOTA
     if option == 1:
         print(f"{colors[2]}*:･ﾟ✧*:･ﾟ Information regarding IOTA cryptocurrency *:･ﾟ✧*:･ﾟ{end_code}")
-        IOTA = '''IOTA (MIOTA) is a cryptocurrency that strives to eradicate the limitations that blockchains have on 
-    the world of crypto. Blockchains are a way that data about crypto transactions can be stored, but has a multitude of 
+        IOTA = '''IOTA (MIOTA) is a cryptocurrency that strives to eradicate the limitations that blockchains have on the world 
+    of crypto. Blockchains are a way that data about crypto transactions can be stored, but has a multitude of 
     downfalls, like it's lack of privacy and potential costliness. In order to combat this issue, IOTA operates on a 
     network called the Internet of Things which claims to allow for feeless and safe transactions. The current 
-    conversion rate of IOTA (MIOTA) is 1 MIOTA to 39.38 JPY.
+    conversion rate of IOTA (MIOTA) is 1 MIOTA to 39.06 JPY.
     '''
         print(f"{colors[3]}{IOTA}{end_code}")
 
     #option 2: Create a transaction
+    from my_library import validate_number_input
     def transaction(date:str,amount:str,reason:str):
         '''
         wallet.csv
@@ -127,14 +130,16 @@ def Main():
     if option == 4:
         total_wallet = 0
         index = 0
-        for log in wallet_log:
-            values = log.split(",")
-            deposit = values[1]
-            total_wallet += int(deposit)
-            index += 1
+        with open("wallet.csv", "r") as file:
+            wallet_log = file.readlines()
+            for log in wallet_log:
+                if index >= 0:
+                    values = log.split(",")
+                    deposit = values[1]
+                    total_wallet += int(deposit)
+                index += 1
         print(f"{colors[2]}Your total balance is {total_wallet} MIOTA.{end_code}")
         print(f"{colors[2]}This is equal to {total_wallet * 39.38} JPY. {end_code}")
     restart()
 Main()
-
 ```
