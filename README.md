@@ -146,3 +146,7 @@ The code above allows the client to see their overall balance, an accumulation o
 ![](projectrestart2.png)
 
 The restart function allows the client to be prompted to either choose another menu option or log out of the digital ledger when the previous option is completed. The restart function runs after every option until the client decides she wants to log out of her digital ledger. This allows the client to fluidly interact with the digital ledger without constantly logging back in or restarting the software. The restart function utilized a defined function and if statements in order to deliver a smooth experience to the client. 
+
+## Video of program
+
+![](project.mov)
