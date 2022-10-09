@@ -1,7 +1,7 @@
 # Unit 1 Project: Crypto Wallet
 
 ![](iota-cryptocurrency.gif)  
-<sub>Illustration: </sub>
+<sub> Illustration by kittam </sub>
 
 # Criteria A: Planning
 
@@ -22,21 +22,6 @@ IOTA is a cryptocurrency that strives to eradicate the limitations that blockcha
 As stated in the design statement, the coding language Python through software PyCharm will be utilized in order to create the digital ledger for the client. Python will be utilized for this task as Python code can be executed faster than other coding languages, which will be beneficial for both the designer of the code and the client. Python is also not susceptible to degrading or loss in performance and also has easy to use syntax and is extremely user-friendly (Dinh). PyCharm is used in conjunction with Python as it has many features that will heighten the performance of the code in order to deliver the highest functioning product to the client. One of these is integrated debugging, which allows for the developer to solve issues with code faster, making the platform highly efficient. PyCharm is also an IDE (Integrated Development Environment) which means it comes with many features that are suitable for software developmebnt(Simran). These factors make the two aperfect combination when developing software for a client.
 
 IOTA was chosen as the cryptocurrency for Ms. Sato as IOTA works to eradicate the downfalls that come with blockchains. This will mean that the client can trade cryptocurrency with a heightened sense of security, as IOTA's operating network reduces the lack of privacy that comes with the usage of blockchains to store crypto information. 
-
-Citation:
-
-Cambridge Dictionary. “Blockchain.” @CambridgeWords, 21 Sept. 2022, dictionary.cambridge.org/ja/dictionary/english/blockchain. Accessed 23 Sept. 2022.
-
-Đình Doanh (Donny. “Python Is One of the Languages That Is Witnessing Incredible Growth and Popularity Year by Year. In 2017, S...” Linkedin.com, 22 Nov. 2021, www.linkedin.com/pulse/top-10-reasons-why-python-so-popular-developers-2021-doanh-donny-. Accessed 9 Oct. 2022.
-
-Houston, Rickie. “Blockchain 101: Definition, Explanation, Pros & Cons.” Business Insider, Insider, 13 July 2022, www.businessinsider.com/personal-finance/what-is-blockchain. Accessed 23 Sept. 2022.
-
-Simran Kaur Arora. “What Is PyCharm? Features, Advantages & Disadvantages.” Hackr.io, 2022, hackr.io/blog/what-is-pycharm#:~:text=PyCharm%20is%20an%20extremely%20popular,that%20facilitate%20comprehensive%20software%20development.. Accessed 9 Oct. 2022.
-‌
-“What Is IOTA.” Iota.org, 2022, www.iota.org/get-started/what-is-iota. Accessed 23 Sept. 2022.
-
-Justify the tools/structure of your solution
-
 
 ## Success Criterias 
 
@@ -148,3 +133,15 @@ The code above allows the client to see their overall balance, an accumulation o
 The restart function allows the client to be prompted to either choose another menu option or log out of the digital ledger when the previous option is completed. The restart function runs after every option until the client decides she wants to log out of her digital ledger. This allows the client to fluidly interact with the digital ledger without constantly logging back in or restarting the software. The restart function utilized a defined function and if statements in order to deliver a smooth experience to the client. 
 
 ## Video of program is in unit 1 folder named project.mov. Entire code is also in unit 1 folder titled project_source_file
+
+Citation:
+
+Cambridge Dictionary. “Blockchain.” @CambridgeWords, 21 Sept. 2022, dictionary.cambridge.org/ja/dictionary/english/blockchain. Accessed 23 Sept. 2022.
+
+Đình Doanh (Donny. “Python Is One of the Languages That Is Witnessing Incredible Growth and Popularity Year by Year. In 2017, S...” Linkedin.com, 22 Nov. 2021, www.linkedin.com/pulse/top-10-reasons-why-python-so-popular-developers-2021-doanh-donny-. Accessed 9 Oct. 2022.
+
+Houston, Rickie. “Blockchain 101: Definition, Explanation, Pros & Cons.” Business Insider, Insider, 13 July 2022, www.businessinsider.com/personal-finance/what-is-blockchain. Accessed 23 Sept. 2022.
+
+Simran Kaur Arora. “What Is PyCharm? Features, Advantages & Disadvantages.” Hackr.io, 2022, hackr.io/blog/what-is-pycharm#:~:text=PyCharm%20is%20an%20extremely%20popular,that%20facilitate%20comprehensive%20software%20development.. Accessed 9 Oct. 2022.
+‌
+“What Is IOTA.” Iota.org, 2022, www.iota.org/get-started/what-is-iota. Accessed 23 Sept. 2022.
